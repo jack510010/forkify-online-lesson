@@ -190,6 +190,10 @@ const controlAddRecipe = async function(newRecipeData){
 }
 
 
+const newFeature = function(){
+  console.log('Welcome to the application!!!');
+};
+
 // 影片第294集說明Publisher Subscriber Pattern
 // subscriber
 const init = function() {
@@ -215,7 +219,7 @@ const init = function() {
 
   addRecipeView.addHandlerUpload(controlAddRecipe)
 
-  console.log('Welcome');
+  newFeature();
   /*  
   no recipe has yet arrived from the API,
   and so therefore state.recipe is not yet defined.
