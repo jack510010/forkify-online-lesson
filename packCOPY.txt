@@ -1,0 +1,23 @@
+怕萬一寫錯或跑步動還可以救回來
+-------------- 以下是json檔，是還在開發階段為上傳至網頁的版本 --------------
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "albert",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "core-js": "^3.24.1",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
+-------------- 以上是json檔 --------------
