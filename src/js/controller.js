@@ -14,10 +14,6 @@ import 'regenerator-runtime/runtime.js';
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
-// module.hot對JS來說是看不懂的，是parcel看得懂，影片第278集有說明，在10:30的位置開始看
-// if(module.hot){
-//   module.hot.accept();
-// };
 
 
 // 食譜主畫面
@@ -190,10 +186,6 @@ const controlAddRecipe = async function(newRecipeData){
 }
 
 
-const newFeature = function(){
-  console.log('Welcome to the application!!!');
-};
-
 // 影片第294集說明Publisher Subscriber Pattern
 // subscriber
 const init = function() {
@@ -218,8 +210,6 @@ const init = function() {
 
 
   addRecipeView.addHandlerUpload(controlAddRecipe)
-
-  newFeature();
   /*  
   no recipe has yet arrived from the API,
   and so therefore state.recipe is not yet defined.
